@@ -28,3 +28,14 @@ Informatica Enterprise Data Catalog Trial
   Docker Postgres
   Docker SQLSERVER
     Docker_COMPOSE.yaml
+
+
+Python Scripts
+	Twitter_Extract 
+	-	Script de extração do twitter para demonstrar um processo de extração e Criação de arquivos na área da stage.
+
+	Verifica_Stage
+	-	Script responsável pelo monitoramento da stage e tomada de decisão da Criação do arquivo de exemplo para catalogação ou se segue para o processo de 		    ingestão.
+
+	Ingestao (Python Script)
+	-	Script responsável por coletar o metadados técnico e realizar a ingestão dentro do datalake conforme informações fornecidas pelo desenvolvedor.
