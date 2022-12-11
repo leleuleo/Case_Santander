@@ -16,26 +16,26 @@ Docker SQLSERVER
 Quick installation guide
 
 Docker Rundeck 
-  Command - docker run --name some-rundeck -p 4440:4440 -v data:/home/rundeck/server/data rundeck/rundeck:4.8.0
+	Command - docker run --name some-rundeck -p 4440:4440 -v data:/home/rundeck/server/data rundeck/rundeck:4.8.0
 VM Horton works 
   Baixe o virtual data box no link abaixo e instale.
-  https://www.virtualbox.org/wiki/Downloads
+  	https://www.virtualbox.org/wiki/Downloads
   Baixe e instale o HDP
-  https://www.cloudera.com/downloads/hortonworks-sandbox.html
+  	https://www.cloudera.com/downloads/hortonworks-sandbox.html
 Informatica Enterprise Data Catalog Trial
   2 VMs RHE 8.7
-    https://developers.redhat.com/content-gateway/file/rhel/8.7.0/rhel-8.7-x86_64-boot.iso
+  	https://developers.redhat.com/content-gateway/file/rhel/8.7.0/rhel-8.7-x86_64-boot.iso
   Docker Postgres
   Docker SQLSERVER
     Docker_COMPOSE.yaml
 
 
 Python Scripts
-	Twitter_Extract 
-	-	Script de extração do twitter para demonstrar um processo de extração e Criação de arquivos na área da stage.
+ Twitter_Extract 
+ - Script de extração do twitter para demonstrar um processo de extração e Criação de arquivos na área da stage.
 
-	Verifica_Stage
-	-	Script responsável pelo monitoramento da stage e tomada de decisão da Criação do arquivo de exemplo para catalogação ou se segue para o processo de 		    ingestão.
+ Verifica_Stage
+ - Script responsável pelo monitoramento da stage e tomada de decisão da Criação do arquivo de exemplo para catalogação ou se segue para o processo de 		        ingestão.
 
-	Ingestao (Python Script)
-	-	Script responsável por coletar o metadados técnico e realizar a ingestão dentro do datalake conforme informações fornecidas pelo desenvolvedor.
+ Ingestao (Python Script)
+ - Script responsável por coletar o metadados técnico e realizar a ingestão dentro do datalake conforme informações fornecidas pelo desenvolvedor.
