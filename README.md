@@ -39,10 +39,12 @@ Processo de ingestão de dados automatizado e integrado com catálogo de metadad
 
 - Twitter_Extract 
   - Script de extração do twitter para demonstrar um processo de extração e Criação de arquivos na área da stage.
->> [Twitter_Extract.py](Twitter_Extract.py)
+>> [Twitter_Extract.py](src/Twitter_Extract.py)
 
 - Verifica_Stage
  - Script responsável pelo monitoramento da stage e tomada de decisão da Criação do arquivo de exemplo para catalogação ou se segue para o processo de 		        ingestão.
+>> [Verifica_Stage.py](src/Verifica_Stage.py)
 
  Ingestao (Python Script)
- - Script responsável por coletar o metadados técnico e realizar a ingestão dentro do datalake conforme informações fornecidas pelo desenvolvedor.
+ - Script responsável por coletar o metadados técnico e realizar a ingestão dentro do datalake conforme informações fornecidas pelo desenvolvedor.>> >> >> >>>>  >>>>>> >> [Ingestao.py](src/Ingestao.py)
+
