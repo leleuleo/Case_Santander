@@ -1,0 +1,20 @@
+version: "3.1"
+
+services:
+
+    db:
+        image: postgres:14.2-alpine
+        restart: always
+        environment:
+            POSTGRES_PASSWORD: infa@123
+        ports:
+            - "5432:5432"
+            
+    sqlserver:
+        image: mcr.microsoft.com/mssql/server:2022-latest
+        environment:
+            SA_PASSWORD: "infa@123"
+            ACCEPT_EULA: "Y"
+            MSSQL_PID: "Developer"
+        ports:
+            - "1433:1433"
