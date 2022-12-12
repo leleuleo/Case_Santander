@@ -7,7 +7,7 @@
 - Ecosistema Hadoop
 
 
-* *Informatica Enterprise Data Catalog* * 
+* *Informatica Enterprise Data Catalog* *
 - Ferramenta de descoberta e catalogação dos dados.
     2 VMs RHE 8.7 
     Docker Postgres
@@ -16,7 +16,8 @@
 Quick installation guide
 
 Docker Rundeck 
-	-	Command - <sub> docker run --name some-rundeck -p 4440:4440 -v data:/home/rundeck/server/data rundeck/rundeck:4.8.0 </sub>
+	-	Command - 
+		>> docker run --name some-rundeck -p 4440:4440 -v data:/home/rundeck/server/data rundeck/rundeck:4.8.0 </sub>
 VM Horton works 
   Baixe o virtual data box no link abaixo e instale.
   	-	https://www.virtualbox.org/wiki/Downloads
