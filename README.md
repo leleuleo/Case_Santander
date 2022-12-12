@@ -1,4 +1,4 @@
-** **Tecnologias utilizadas no prototipo
+**Tecnologias utilizadas no prototipo
 
 * *Docker Rundeck* *
 	- Ferramenta de gerenciamento de automações.
