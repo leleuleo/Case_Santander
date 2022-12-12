@@ -31,9 +31,9 @@ Processo de ingestão de dados automatizado e integrado com catálogo de metadad
 - Informatica Enterprise Data Catalog Trial
   - 2 VMs RHE 8.7
     - Baixe e instale no Virtual Databox ou em algum servidor que desejar
- >> https://developers.redhat.com/content-gateway/file/rhel/8.7.0/rhel-8.7-x86_64-boot.iso
+>> https://developers.redhat.com/content-gateway/file/rhel/8.7.0/rhel-8.7-x86_64-boot.iso
   - Docker Postgres / Docker SQLSERVER
-    See [docker-compose.yml](docker-compose.yml)
+>> [docker-compose.yml](docker-compose.yml)
     
 # Python Scripts
 
