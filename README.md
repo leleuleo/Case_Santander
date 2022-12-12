@@ -46,5 +46,6 @@ Processo de ingestão de dados automatizado e integrado com catálogo de metadad
 >> [Verifica_Stage.py](src/Verifica_Stage.py)
 
  Ingestao (Python Script)
- - Script responsável por coletar o metadados técnico e realizar a ingestão dentro do datalake conforme informações fornecidas pelo desenvolvedor.>> >> >> >>>>  >>>>>> >> [Ingestao.py](src/Ingestao.py)
+ - Script responsável por coletar o metadados técnico e realizar a ingestão dentro do datalake conforme informações fornecidas pelo desenvolvedor.
+>> [Ingestao.py](src/Ingestao.py)
 
