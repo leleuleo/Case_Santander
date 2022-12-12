@@ -33,7 +33,7 @@ Processo de ingestão de dados automatizado e integrado com catálogo de metadad
     - Baixe e instale no Virtual Databox ou em algum servidor que desejar
 >> https://developers.redhat.com/content-gateway/file/rhel/8.7.0/rhel-8.7-x86_64-boot.iso
   - Docker Postgres / Docker SQLSERVER
->> [docker-compose.yml](docker-compose.yml)
+>> [compose/docker-compose.yml](docker-compose.yml)
     
 # Python Scripts
 
