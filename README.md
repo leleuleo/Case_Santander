@@ -39,6 +39,7 @@ Processo de ingestão de dados automatizado e integrado com catálogo de metadad
 
 - Twitter_Extract 
   - Script de extração do twitter para demonstrar um processo de extração e Criação de arquivos na área da stage.
+>> [Twitter_Extract.py](Twitter_Extract.py)
 
 - Verifica_Stage
  - Script responsável pelo monitoramento da stage e tomada de decisão da Criação do arquivo de exemplo para catalogação ou se segue para o processo de 		        ingestão.
