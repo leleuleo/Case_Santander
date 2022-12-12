@@ -1,22 +1,22 @@
-Tecnologias utilizadas no prototipo
+** **Tecnologias utilizadas no prototipo
 
-Docker Rundeck 
+* *Docker Rundeck* *
 	- Ferramenta de gerenciamento de automações.
 
-VM Horton works 
+* *VM Horton works* *
 - Ecosistema Hadoop
 
 
-Informatica Enterprise Data Catalog 
-2 VMs RHE 8.7
-Docker Postgres
-Docker SQLSERVER
+* *Informatica Enterprise Data Catalog* * 
 - Ferramenta de descoberta e catalogação dos dados.
+    2 VMs RHE 8.7 
+    Docker Postgres
+    Docker SQLSERVER 
 
 Quick installation guide
 
 Docker Rundeck 
-	-	Command - docker run --name some-rundeck -p 4440:4440 -v data:/home/rundeck/server/data rundeck/rundeck:4.8.0
+	-	Command - <sub> docker run --name some-rundeck -p 4440:4440 -v data:/home/rundeck/server/data rundeck/rundeck:4.8.0 </sub>
 VM Horton works 
   Baixe o virtual data box no link abaixo e instale.
   	-	https://www.virtualbox.org/wiki/Downloads
